@@ -1,3 +1,6 @@
+// Скалярні типи та посилання
+// 1.
+
 'use strict';
 
 function inc(n) { //Створюємо функцію
@@ -8,3 +11,15 @@ function inc(n) { //Створюємо функцію
 const a = 5;
 let b = inc(a);
 console.dir({ a, b });
+
+// 2.
+
+{ function inc(num) {
+  num.n += 1; //Змінюємо поле n у вихідному об'єкті
+}
+
+//Приклад виклику
+const obj = { n: 5 };
+inc(obj);
+console.dir(obj); // { n: 6 }
+}
