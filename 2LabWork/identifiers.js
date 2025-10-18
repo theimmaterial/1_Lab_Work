@@ -1,3 +1,5 @@
+'use strict';
+
 let myName = "Vladyslav";
 
 const birthYear = 2007;
